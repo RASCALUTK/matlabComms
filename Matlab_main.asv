@@ -52,7 +52,7 @@ while true
     
     if rem(i,20) == 0 % Send data only when i is a multiple of x
 
-        Stepper(megaSerial,xaxis,yaxis,zaxis,Update); % to send commands to steppers
+        Stepper(megaSerial,xaxis,yaxis,zaxis); % to send commands to steppers
 
         linAct(megaSerial,Lbutt1,Lbutt2); % Send Command to linAct
         
